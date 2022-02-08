@@ -2,12 +2,11 @@
 
 ## Technologies used:
 
-—Typescript
-—React
-—Jest
-—Node
-—HTML
-—CSS
-—Web vitals
+> Typescript
+> React
+> Jest
+> Node
+> HTML
+> CSS
 
 lesrz.
