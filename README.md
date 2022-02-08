@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 # Cyberpunk webpage with static information
 
 ## Technologies used:
@@ -13,5 +11,3 @@
 —Web vitals
 
 lesrz.
-
-> > > > > > > 5018b6e47219bfa70b4e27e711974cee27b0019f
