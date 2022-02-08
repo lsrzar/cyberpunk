@@ -2,11 +2,11 @@
 
 ## Technologies used:
 
-> Typescript
-> React
-> Jest
-> Node
-> HTML
-> CSS
+- Typescript
+- React
+- Jest
+- Node
+- HTML
+- CSS
 
-lesrz.
+/lesrz.
