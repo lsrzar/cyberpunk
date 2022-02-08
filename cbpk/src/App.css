@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=K2D:wght@100;400&display=swap');
+
+:root {
+  --top-padding: 1vh;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 28px;
+  padding-left: 4.5vw;
+  padding-top: var(--top-padding);
+  pointer-events: none;
+  display: inline-flex;
+  align-items: flex-start;
+  position: absolute;
+}
+
+.App-title {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 2em;
+  color: #fb618f;
+  display: inline-flex;
+  padding-left: 7vw;
+  padding-top: var(--top-padding);
+  position: absolute;
+}
+
+.App-description {
+  font-family: 'K2D', sans-serif;
+  font-size: 1em;
+  font-weight: 100;
+  display: inline-flex;
+  align-self: flex-end;
+  position: absolute;
+  padding-top: var(--top-padding);
+  padding-right: 7vw;
+}
+
+.App-header {
+  background-color: #28212a;
+  min-height: 90px;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}

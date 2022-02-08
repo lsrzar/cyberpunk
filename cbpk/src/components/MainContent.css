@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=K2D:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mada&display=swap');
+
+.MainContent {
+  background-color: #302835;
+  display: flex;
+  flex-direction: column;
+  min-height: fit-content;
+  max-height: min-content;
+}
+
+.Mc-Title {
+  font-family: 'K2D', sans-serif;
+  font-weight: bold;
+  font-size: calc(10px + 2.5vmax);
+  color: white;
+  padding-top: 8vh;
+  padding-left: 4vw;
+  max-height: max-content;
+}
+
+.Mc-List {
+  color: white;
+  padding-left: 7vw;
+  font-family: 'Mada', sans-serif;
+  background: url('../logo.svg');
+  background-repeat: no-repeat;
+  background-position-x: 90vw;
+  min-height: max-content;
+}
+
+.Mc-List .Mc-ListItem {
+  list-style: none;
+  list-style-position: outside;
+}
+
+.Mc-List .Mc-ListItem::before {
+  content: '\2022';
+  color: #fb618f;
+  font-size: calc(10px + 1.5vmax);
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: 1em;
+}
+
+.Mc-ListItem {
+  font-size: calc(10px + 0.5vmax);
+  padding-bottom: 1vh;
+  padding-right: 5vw;
+  width: 80vw;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding-left: 3vw;
+}
